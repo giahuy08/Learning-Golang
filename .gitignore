@@ -1,0 +1,24 @@
+# Build artifacts
+/bin/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test / coverage
+*.test
+*.prof
+coverage.out
+coverage.html
+
+# Go workspace file (if you ever use go.work)
+go.work
+go.work.sum
+
+# IDE
+.idea/
+
+# OS
+Thumbs.db
+.DS_Store

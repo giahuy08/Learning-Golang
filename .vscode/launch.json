@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug Current File",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${file}"
+    },
+    {
+      "name": "Debug playground (cmd/playground)",
+      "type": "go",
+      "request": "launch",
+      "mode": "auto",
+      "program": "${workspaceFolder}/cmd/playground"
+    },
+    {
+      "name": "Debug Test (package under cursor)",
+      "type": "go",
+      "request": "launch",
+      "mode": "test",
+      "program": "${fileDirname}",
+      "args": ["-test.v"]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "[go]": {
+    "editor.defaultFormatter": "golang.go",
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": false,
+    "editor.tabSize": 4
+  },
+  "gopls": {
+    "ui.semanticTokens": true,
+    "ui.diagnostic.staticcheck": true,
+    "ui.completion.usePlaceholders": true
+  },
+  "go.lintTool": "golangci-lint",
+  "go.lintFlags": ["--fast"],
+  "go.vetOnSave": "package",
+  "go.buildOnSave": "package",
+  "go.testTimeout": "30s",
+  "go.testFlags": ["-v", "-count=1"],
+  "go.coverOnSave": false,
+  "files.associations": {
+    "*.go": "go",
+    "go.sum": "go"
+  }
+}
